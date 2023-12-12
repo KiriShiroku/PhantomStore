@@ -1,0 +1,42 @@
+<%- include("../templates/encabezado")%>
+<%- include("../templates/menu")%>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Color de fondo */
+}
+
+#contenedor {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#imagen {
+    max-width: 50%;
+    height: auto;
+}
+
+#bienvenida {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333; /* Color del texto */
+}
+
+#descripcion {
+    font-size: 16px;
+    color: #666; /* Color del texto más pequeño */
+}
+</style>
+
+<div id="contenedor">
+    <img id="imagen" src="images/phantomsintro.png" alt="PHANTOM Store">
+
+    <div id="bienvenida">
+        <p>BIENVENIDO:</p>
+        <p id="descripcion">PHANTOM Store es una página web diseñada para vender videojuegos nuevos, de segunda mano, artículos relacionados para los Gamers y próximamente mucho más.</p>
+    </div>
+</div>
+<br><br><br>
+<%- include("../templates/pie") %>
